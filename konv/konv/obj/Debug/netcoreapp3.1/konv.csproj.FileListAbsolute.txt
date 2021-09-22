@@ -1,0 +1,14 @@
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.exe
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.deps.json
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.runtimeconfig.json
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.runtimeconfig.dev.json
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.dll
+C:\Users\anasq\source\repos\konv\konv\bin\Debug\netcoreapp3.1\konv.pdb
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.csproj.AssemblyReference.cache
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.AssemblyInfoInputs.cache
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.AssemblyInfo.cs
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.csproj.CoreCompileInputs.cache
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.dll
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.pdb
+C:\Users\anasq\source\repos\konv\konv\obj\Debug\netcoreapp3.1\konv.genruntimeconfig.cache

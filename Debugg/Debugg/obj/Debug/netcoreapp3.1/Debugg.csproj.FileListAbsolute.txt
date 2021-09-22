@@ -1,0 +1,14 @@
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.exe
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.deps.json
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.runtimeconfig.json
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.runtimeconfig.dev.json
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.dll
+C:\Users\anasq\source\repos\Debugg\Debugg\bin\Debug\netcoreapp3.1\Debugg.pdb
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.csproj.AssemblyReference.cache
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.AssemblyInfoInputs.cache
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.AssemblyInfo.cs
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.csproj.CoreCompileInputs.cache
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.dll
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.pdb
+C:\Users\anasq\source\repos\Debugg\Debugg\obj\Debug\netcoreapp3.1\Debugg.genruntimeconfig.cache
