@@ -10,6 +10,8 @@ namespace If_elseif
             string naem = Console.ReadLine();
 
             Console.WriteLine("Hej {0} , Hur gammal är du ? ",naem);
+            Console.WriteLine("Hej {0} , Hur gammal är du ? ",naem);
+            Console.WriteLine("Hej {0} , Hur gammal är du ? ",naem);
 
 
             //int age = int.Parse(Console.ReadLine());
