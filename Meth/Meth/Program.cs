@@ -17,6 +17,12 @@ namespace Meth
         //}
         static void Main(string[] args)
         {
+
+
+
+
+
+
             //OldMethod();
             //1
             Program.JämnaSiffror();
@@ -65,7 +71,43 @@ namespace Meth
         //{
         //
 
+       static void Multiply(int num1, int num2)
+        {
+            int result = num1 * num2;
+            Console.WriteLine("The result is : " + result);
+        }
+
+
+
+        static int Multi(int num1, int num2)
+        {
+            int result = num1 * num2;
+            return result;
+        }
+
+
+        public void MeetAnewPerson()
+        {
+            Random numGen = new Random();
+
+            string name = "X-" + numGen.Next(150,999);
+            int age = numGen.Next(10 , 500);
+
+            Console.WriteLine("Hi ,I'm " + name);
+            Console.WriteLine("I'm" + age + "Years old.");
+            Console.WriteLine("Oh, an I'm a new person");
+
+        }
+
         //1 
+        public void PrintNumber()
+        {
+            Random numGen = new Random();
+            int number = numGen.Next(0,10);
+            Console.WriteLine(number);
+        }
+
+
         public static void JämnaSiffror()
         {
             int start = 0;

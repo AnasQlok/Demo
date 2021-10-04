@@ -7,7 +7,7 @@ namespace Felsök
         static void Main(string[] args)
         {
             //Kompileringsfel
-            //1-Case sensitive
+            //1 - Case sensitive
             //int tal = 10;
             //Console.WriteLine(Tal);
 
@@ -16,10 +16,10 @@ namespace Felsök
             //string namn = "Tobias";
             //namn = 10;
 
-            //Logiska fel (Felsökning)
-            //int tal = 0;
+            // Logiska fel(Felsökning)
+            //int tal = 3;
 
-            //while(tal < 10)
+            //while (tal < 10)
             //{
             //    Console.WriteLine(tal);
             //    tal += 4;
@@ -30,22 +30,56 @@ namespace Felsök
             //}
             //Console.ReadLine();
 
-            try
+            //Console.WriteLine("skriv ett helt tal:");
+            //int userInput = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Du skrev : {0}", userInput);
+            //Console.ReadKey();
+
+
+
+
+
+
+            //try
+            //{
+            //    Console.WriteLine("skriv ett helt tal:");
+            //    int userInput = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Du skrev : {0}", userInput);
+
+            //}
+
+
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            string textIn;
+            int i;
+            Console.Write("Ange vad du gjorde: ");
+            textIn = Console.ReadLine();
+
+            Console.Write("Hur länge gjorde du det: ");
+            int v = int.Parse(Console.ReadLine());
+
+            Console.Write("Vill du ange mer tid: ");
+
+            string answer = Console.ReadLine();
+            bool cont = false;
+            if (answer.ToLower() == "yes")
             {
-                Console.WriteLine("skriv ett helt tal:");
-                int? userInput = int.Parse(Console.ReadLine());
-                Console.WriteLine("Du skrev : {0}", userInput);
-               
+                cont = true;
             }
-            catch (NullReferenceException)
+
+            while(cont == true); 
             {
-                Console.WriteLine("Fel ....... Null värde ! Du måste skriva en värde");
-            }
-            catch(FormatException) 
-            {
-                Console.WriteLine("Fel värde..... FormatException ");
-            }
-            Console.ReadKey();
+                Console.Write("Ange vad du gjorde: ");
+                textIn = Console.ReadLine();
+                Console.Write("Hur länge gjorde du det: ");
+                i = int.Parse(Console.ReadLine());
+
+                Console.Write("Vill du ange mer tid: ");
+                cont = bool.Parse(Console.ReadLine());
+            } 
 
 
         }

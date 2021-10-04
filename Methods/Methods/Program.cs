@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Drawing;
 
 namespace Methods
 {
     class Program
 
     {
+
+
         public static void Main(string[] args)
         {
             //Program.DoSomThing1();
@@ -47,106 +50,78 @@ namespace Methods
             //Program.Simpel(ref y);
 
             //Console.WriteLine(y);
-            Bitmap bm = new Bitmap(8 * 100, 8 * 100);
-            Graphics g = Graphics.FromImage(bm);
-            Color color1, color2;
-            for (int i = 0; i < 8; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    color1 = Color.Black;
-                    color2 = Color.White;
-                }
-                else
-                {
-                    color1 = Color.White;
-                    color2 = Color.Black;
-                }
-                SolidBrush blackBrush = new SolidBrush(color1);
-                SolidBrush whiteBrush = new SolidBrush(color2);
 
-                for (int j = 0; j < 8; j++)
-                {
-                    if (j % 2 == 0)
-                        g.FillRectangle(blackBrush, i * 100, j * 100, 100, 100);
-                    else
-                        g.FillRectangle(whiteBrush, i * 100, j * 100, 100, 100);
-                }
-            }
 
-            g.DrawImage(bm, 150, 200);
+
+            //public  void DoSomThing()
+            //{
+            //    Console.WriteLine("Hello World1");
+            //}
+
+            //public void DoSomThing()
+            //{
+            //    Console.WriteLine("Hello World2");
+            //}
+
+
+
+            //public void JämnaSif()
+            //{
+            //    int start = 0;
+
+            //    while (start <=20)
+            //    {
+            //        Console.WriteLine(start);
+            //        start = start + 2;
+            //    }
+            //}
+
+            //public void EvenNum(int target)
+            //{
+            //    Console.WriteLine("Print Even *Numbers from 0 to {0}",target);
+
+            //    for (int i = 0; i <= target; i++)
+            //    {
+            //        if (i % 2==0)
+            //        {
+            //            Console.WriteLine(i + "");
+            //        }
+            //    }
+            //}
+
+
+            //public int Sum(int num1, int num2)
+            //{
+            //    return num1 + num2;
+            //}
+
+            //public string FullName(string firstName, string secondName)
+            //{
+            //    string FN = firstName + " " + secondName;
+            //    return FN;
+            //}
+
+            //public static void Calculate(int firstNum, int secondNum, out int Sum, out int Product)
+            //{
+            //    Sum = firstNum + secondNum;
+            //    Product = firstNum * secondNum;
+            //}
+
+
+            //public static void ParamMethod(params int[] Numbers)
+            //{
+            //    Console.WriteLine("There is {0} element ", Numbers.Length);
+            //    foreach(int i in Numbers)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public static void Simpel(ref int x)
+            //{
+            //    x = 111;
+            //}
 
         }
-
-
-        //public  void DoSomThing()
-        //{
-        //    Console.WriteLine("Hello World1");
-        //}
-
-        //public void DoSomThing()
-        //{
-        //    Console.WriteLine("Hello World2");
-        //}
-
-
-
-        //public void JämnaSif()
-        //{
-        //    int start = 0;
-
-        //    while (start <=20)
-        //    {
-        //        Console.WriteLine(start);
-        //        start = start + 2;
-        //    }
-        //}
-
-        //public void EvenNum(int target)
-        //{
-        //    Console.WriteLine("Print Even *Numbers from 0 to {0}",target);
-
-        //    for (int i = 0; i <= target; i++)
-        //    {
-        //        if (i % 2==0)
-        //        {
-        //            Console.WriteLine(i + "");
-        //        }
-        //    }
-        //}
-
-
-        //public int Sum(int num1, int num2)
-        //{
-        //    return num1 + num2;
-        //}
-
-        //public string FullName(string firstName, string secondName)
-        //{
-        //    string FN = firstName + " " + secondName;
-        //    return FN;
-        //}
-
-        //public static void Calculate(int firstNum, int secondNum, out int Sum, out int Product)
-        //{
-        //    Sum = firstNum + secondNum;
-        //    Product = firstNum * secondNum;
-        //}
-
-
-        //public static void ParamMethod(params int[] Numbers)
-        //{
-        //    Console.WriteLine("There is {0} element ", Numbers.Length);
-        //    foreach(int i in Numbers)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        public static void Simpel(ref int x)
-        {
-            x = 111;
-        }
-
     }
 }

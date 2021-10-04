@@ -8,22 +8,29 @@ namespace Debugg
         {
             string textIn ;
             int i;
-            Console.Write("Enter what you did: ");
+            Console.Write("Ange vad du gjorde: ");
             textIn = Console.ReadLine();
 
-            Console.Write("How long did you do it for: ");
+            Console.Write("Hur länge gjorde du det: ");
             int v = int.Parse(Console.ReadLine());
             
-            Console.Write("Do you want to enter more time:");
-            bool cont = bool.Parse(Console.ReadLine());
+            Console.Write("Vill du ange mer tid (Ja / Nej): ");
+
+            string answer = Console.ReadLine();
+            bool cont = false;
+
+            if (answer.ToLower() == "yes")
+            {
+                cont = true;
+            }
             do
             {
-                Console.Write("Enter what you did: ");
+                Console.Write("Ange vad du gjorde: ");
                 textIn = Console.ReadLine();
-                Console.Write("How long did you do it for: ");
+                Console.Write("Hur länge gjorde du det: ");
                 i = int.Parse(Console.ReadLine());
                 
-                Console.Write("Do you want to enter more time:");
+                Console.Write("Vill du ange mer tid: ");
                 cont = bool.Parse(Console.ReadLine());
             } while (cont == true);
         }
